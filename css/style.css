@@ -168,36 +168,6 @@ p {
   width: 100%;
   transition: all 0.4s ease-in-out;
 }
-/* FILTER CSS 
-.filter-wrapper {
-    width: 100%;
-    margin: 40px 0 24px 0;
-    overflow: hidden;
-    text-align: center;
-}
-.filter-wrapper li {
-    display: inline-block;
-    margin: 4px;
-}
-.filter-wrapper li a {
-    color: #999999;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 8px 17px;
-    display: block;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
-}
-.filter-wrapper li .selected,
-.filter-wrapper li a:focus,
-.filter-wrapper li a:hover {
-    background: #FFEFAE;
-    color: #ffffff;
-    outline: none;
-}*/
-
 /* ISOTOPE CSS */
 .iso-section {
     width: 100%;
@@ -235,13 +205,13 @@ p {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: MidnightBlue;
+  background-color: white;
 }
 #project .iso .overlay:hover {
   opacity: 0.8;
 }
 #project .iso .text {
-  color: white;
+  color: black;
   position: absolute;
   top: 50%;
   left: 50%;
