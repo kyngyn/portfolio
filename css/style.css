@@ -78,7 +78,7 @@ p {
 	outline: none;
 }
 .custom-navbar .nav li.active > a {
-  background-color:#B8C5D8;
+  background-color: #B8C5D8;
 }
 .custom-navbar .navbar-toggle {
   border: none;
@@ -251,26 +251,13 @@ p {
   text-align: center;  
 }
 
-/* team section 
-#team {
-  text-align: center;
-}
-#team h3 {
-  color: #202020;
-  line-height: 4px;
-}
-#team .team-des {
-  padding-top: 20px;
-  padding-bottom: 40px;
-}*/
-
 /* skills section */
 #skills .col-md-4 h3 {
   text-align: center;
   padding-bottom: 40px;
 }
 #skills .col-md-4 .fab {
-  background: #FFD321;
+  background: #B8C5D8;
   border-radius: 50%;
   color: #ffffff;
   font-size: 36px;
@@ -282,7 +269,7 @@ p {
   margin-left: 28px;
 }
 #skills .col-md-4 .fas {
-  background: #FFD321;
+  background: #B8C5D8;
   border-radius: 50%;
   color: #ffffff;
   font-size: 38px;
@@ -294,7 +281,7 @@ p {
   margin-left: 28px;
 }
 #skills .col-md-4 img {
-  background: #FFD321;
+  background: #B8C5D8;
   border-radius: 50%;
   position: absolute;
   width: 80px;
@@ -302,41 +289,6 @@ p {
   margin-bottom: 10px;
   margin-left: 28px;
 }
-/*border-radius: 50%;
-  color: #ffffff;
-  font-size: 38px;
-  width: 80px;
-  height: 80px;
-  line-height: 82px;
-  text-align: center;
-  margin-bottom: 10px;
-  margin-left: 28px;
-}
-
-margin-right: 10px;
-#skills .col-md-6 {
-  padding-top: 60px;
-}
-#skills .col-md-6 h3 {
-  padding-top: 40px;
-  padding-bottom: 10px;
-}
-#skills .col-md-6 p {
-  padding-bottom: 30px;
-}
-
-#skills span {
-  display: block;
-  padding-bottom: 6px;
-}
-#skills .progress {
-  border-radius: 0;
-  box-shadow: none;
-  height: 6px;
-}
-#skills .progress .progress-bar-primary {
-  background: #FFD321;
-}*/
 
 /* contact section */
 #contact {
@@ -376,42 +328,6 @@ margin-right: 10px;
 }
 .contact-info-box h3 { font-size: 16px; }
 
-/* footer section */
-footer {
-  background: url('../images/footer-bg.jpg') no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-.social-icon {
-  padding: 0;
-  text-align: center;
-  vertical-align: middle;
-}
-.social-icon li {
-  list-style: none;
-  display: inline-block;
-  padding: 0;
-}
-.social-icon li a {
-  border-radius: 50%;
-  color: #303030;
-  font-size: 32px;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.4s ease-in-out;
-  margin-top: 20px;
-  margin-right: 10px;
-}
-.social-icon li a:hover {
-  background: #FFEFAE;
-}
 
 /* copyright section */
 #copyright {
