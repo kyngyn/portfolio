@@ -1,0 +1,372 @@
+/*
+
+Blaster Template
+
+http://www.templatemo.com/tm-472-blaster
+
+*/
+
+body
+{
+	background: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+html,body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+h1,h2,h3,h4 {
+	font-weight: bold;
+}
+
+.heading {
+	font-size: 60px;
+  letter-spacing: 4px;
+}
+.subheading {
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 60px;
+}
+.bold {
+	font-weight: bold;
+}
+
+p {
+	letter-spacing: 0px;
+	line-height: 28px;
+}
+
+#about,
+#skills, #contact {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#skills .fa {
+	font-size: 28px;
+	min-width: 34px;
+}
+
+/* start navigation */
+.custom-navbar {
+  background: #ffffff;
+  margin-bottom: 0;
+}
+.custom-navbar .navbar-brand  {
+	color: #303030;
+	font-size: 40px;
+}
+.custom-navbar .nav li a {
+  color: #505050;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  padding-right: 20px;
+  padding-left: 20px;
+	transition: all 0.3s ease-in-out;
+}
+.custom-navbar .nav li a:hover {
+  transition: all 0.3s ease-in-out;
+}
+.custom-navbar .nav > li > a:focus {
+  background-color: transparent;
+	outline: none;
+}
+.custom-navbar .nav li.active > a {
+  color: #3D52D2;
+}
+.custom-navbar .navbar-toggle {
+  border: none;
+  padding-top: 10px;
+}
+@media(min-width:768px){
+  .custom-navbar {
+          background: #ffffff;
+          padding: 14px;
+          border-bottom: 0;
+          background: 0 0;
+       }
+  .custom-navbar.top-nav-collapse {
+          padding: 14px;
+          background: #fff;
+          border-bottom: 1px solid #eeeeee;
+      }
+}
+
+/* home section */
+#home {
+  background: linear-gradient(90deg, #ffffff 50%, #fff6da 50%);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+#home h3 {
+  color: DimGrey;
+  letter-spacing: 4px;
+  text-align: 80px;
+}
+#home .btn {
+  background: transparent;
+  border-radius: 0;
+  border: 3px solid #404040;
+  color: #404040;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 16px 50px;
+  margin-top: 40px;
+  transition: all 0.4s ease-in-out;
+}
+#home .btn:hover {
+  background: #404040;
+  color: #ffffff;
+}
+
+/* about section */
+#about .col-md-5 {
+  padding-top: 60px;
+}
+#about .col-md-7 {
+  padding-top: 60px;
+}
+#about .col-md-7 h3 {
+  padding-top: 10px;
+}
+
+/* project section */
+#project {
+  padding-top: 100px;
+  background: #f9f9f9;
+  text-align: center;
+  }
+#project .container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#project .col-md-4 {
+  padding: 0;
+  margin: 0;
+}
+#project img {
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+/* ISOTOPE CSS */
+.iso-section {
+    width: 100%;
+}
+.iso-wrapper {
+    width: 100%;
+    padding: 0;
+    clear: both;
+    position: relative;
+}
+.iso {
+    position: relative;
+    min-height: 50px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.iso > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.fluid-img {
+  width: 100%;
+  display: block;
+}
+#project .iso .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+#project .iso .overlay:hover {
+  opacity: 0.8;
+}
+#project .iso .text {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;  
+}
+
+/* skills section */
+#skills .col-md-4 h3 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+#skills .col-md-4 .fab {
+  background: #181F52;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 36px;
+  width: 80px;
+  height: 80px;
+  line-height: 84px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 28px;
+}
+#skills .col-md-4 .fas {
+  background: #181F52;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 38px;
+  width: 80px;
+  height: 80px;
+  line-height: 82px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 28px;
+}
+#skills .col-md-4 img {
+  background: #181F52;
+  border-radius: 50%;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  margin-left: 28px;
+}
+
+/* contact section */
+#contact {
+  background: #f9f9f9;
+  text-align: center;
+}
+#contact .fa {
+  font-size: 40px;
+}
+#contact form {
+  padding-top: 80px;
+}
+#contact .form-control {
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+#contact .form-control:focus {
+  border: 2px solid #808080;
+}
+#contact input {
+  height: 50px;
+}
+#contact input[type="submit"] {
+  border: 2px solid #808080;
+  margin-top: 18px;
+  height: 54px;
+}
+#contact input[type="submit"]:hover {
+  background: #808080;
+  color: #ffffff;
+}
+#contact textarea {
+  height: 170px;
+}
+.contact-info-box h3 { font-size: 16px; }
+
+
+/* copyright section */
+#copyright {
+  background: #404040;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#copyright p {
+  padding-top: 20px;
+}
+#copyright a {
+	color: #fff;
+}
+#copyright a:hover {
+	color: #FFEFAE;
+	text-decoration: none;
+	transition: all 0.4s ease-in-out;
+}
+#copyright .fa {
+  background: #383838;
+  color: #ffffff;
+  font-size: 18px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  transition: all 0.4s ease-in-out;
+}
+#copyright .fa:hover {
+  background: #FFEFAE;
+  color: #000;
+}
+
+@media screen and (min-width: 992px) {
+  @-moz-document url-prefix() {
+    #project .col-lg-4,
+    #project .col-md-4 {
+      width: 33.333%;
+    }
+  }    
+}
+
+@media ( max-width: 980px ) {
+  .custom-navbar .navbar-brand {
+    font-size: 24px;
+  }
+  #about img {
+    padding-top: 40px;
+  }
+  #contact form {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact-info-box { margin-bottom: 20px; }
+  .contact-info-box:last-child { margin-bottom: 0; }
+}
+
+@media (max-width: 450px) {
+  .heading {
+    font-size: 40px;
+  }
+  #about .col-md-4 .fa {
+    margin-top: 32px;
+  }
+  #contact h3 {
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+}
