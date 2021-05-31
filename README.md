@@ -1,5 +1,5 @@
 # portfolio
-about me
+It is a website about me.
 
-It's originated from Blaster Template
+It originated from Blaster Template.
 http://www.templatemo.com/tm-472-blaster
